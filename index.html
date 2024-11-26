@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Website</title>
+    <link rel="stylesheet" href="assets/landing.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <div class="logo">
+                <span>Club Voli UIN Ar-Raniry</span>
+            </div>
+            <div class="navbar-burger">
+                <div class="menu-icon" id="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#anon">Pengunguman</a></li>
+                    <li><a href="#rules">Aturan</a></li>
+                    <li><a href="pendaftaran.html">Registrasi</a></li>
+                    <li><a href="login.php">Login Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="body">
+        <main>
+            <section>
+                <article id="anon">
+                    <h2>Pengunguman Pendaftaran Klub Voli UIN Ar-Raniry</h2>
+                    <p>Diberitahukan kepada seluruh mahasiswa/i UIN Ar-Raniry yang memiliki minat dan bakat dalam olahraga voli, bahwa Klub Voli UIN Ar-Raniry sedang membuka kesempatan untuk bergabung sebagai anggota baru. Bagi yang berminat, berikut adalah informasi lengkap tentang rekrutmen ini.
+                    </p>
+                </article>
+    
+                <article id="aturan">
+                    <h2>Aturan Lomba</h2>
+                    <ul>
+                        <li>Mahasiswa/i aktif UIN Ar-Raniry.</li>
+                        <li>Mampu berkomitmen mengikuti latihan dan pertandingan yang diselenggarakan oleh klub.</li>
+                        <li>Memiliki keterampilan dasar dalam bermain voli (untuk yang sudah berpengalaman) atau siap belajar bagi yang baru ingin mencoba.</li>
+                        <li>Sehat jasmani dan rohani.</li>
+                        <li>Menunjukkan etika yang baik, disiplin, dan kerja sama tim.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h2>Pendaftaran</h2>
+                    <ul>
+                        <li>Pendaftaran dapat dilakukan melalui formulir online di laman pendaftaran</li>
+                        <li>Batas waktu pendaftaran: 15 November 2024.</li>
+                        <li>Peserta yang mendaftar akan mengikuti seleksi yang akan dilaksanakan pada: 27 November 2024</li>
+                        <li>Lokasi Pendaftaran: Lapangan Voli UIN Ar-Raniry (atau lokasi lain yang akan diinformasikan lebih lanjut).</li>
+                    </ul>
+                </article>
+            </section>
+    
+            <aside>
+                <h2>Images Of Volleyball</h2>
+                <div class="gallery">
+                    <img src="Images/img1.png" alt="Volleyball Game 1">
+                    <img src="Images/img2.png" alt="Volleyball Game 2">
+                </div>
+            </aside>
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Volleyball World. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.getElementById('nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
